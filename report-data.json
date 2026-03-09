@@ -1,0 +1,22 @@
+{
+  "conclusion": "设备运行正常，所有检测项均在预期范围内。",
+  "status": "success",
+  "timestamp": "2026-03-09 11:30:00",
+  "metrics": [
+    {"value": "98%", "label": "健康度"},
+    {"value": "23°C", "label": "温度"},
+    {"value": "45ms", "label": "响应时间"},
+    {"value": "在线", "label": "状态"}
+  ],
+  "details": [
+    {"item": "CPU 使用率", "value": "32%", "status": "success", "statusText": "正常", "note": "低于阈值 80%"},
+    {"item": "内存使用", "value": "4.2GB/8GB", "status": "success", "statusText": "正常", "note": "可用内存充足"},
+    {"item": "磁盘空间", "value": "120GB/500GB", "status": "success", "statusText": "正常", "note": "剩余 76%"},
+    {"item": "网络延迟", "value": "45ms", "status": "success", "statusText": "正常", "note": "连接稳定"},
+    {"item": "服务状态", "value": "运行中", "status": "success", "statusText": "正常", "note": "所有服务正常"}
+  ],
+  "recommendations": [
+    "建议定期清理日志文件，保持系统整洁",
+    "下周将进行系统维护，请提前备份重要数据"
+  ]
+}
